@@ -39,7 +39,7 @@ export default function Headerbar() {
                     <div className="Headerbar_col3_row2_col1_label">
                         <NavLink
                             exact
-                            to="/about"
+                            to="/"
                             activeClassName="active"
                             className="nav-links"
                             onClick={handleClick}
@@ -59,16 +59,52 @@ export default function Headerbar() {
                         </NavLink>
                     </div>
                     <div className="Headerbar_col3_row2_col1_label">
-                        <label>ACCURATE ERP</label>
+                        <NavLink
+                            exact
+                            to="/accurateERP"
+                            activeClassName="active"
+                            className="nav-links"
+                            onClick={handleClick}
+                        >
+                            ACCURATE ERP
+                        </NavLink>
+                        {/* <label>ACCURATE ERP</label> */}
                     </div>
                     <div className="Headerbar_col3_row2_col1_label">
-                        <label>RENT-A-CAR SOFTWARE</label>
+                        <NavLink
+                            exact
+                            to="/software"
+                            activeClassName="active"
+                            className="nav-links"
+                            onClick={handleClick}
+                        >
+                            RENT-A-CAR SOFTWARE
+                        </NavLink>
+                        {/* <label>RENT-A-CAR SOFTWARE</label> */}
                     </div>
                     <div className="Headerbar_col3_row2_col1_label">
-                        <label>NETWORKING SERVICES</label>
+                    <NavLink
+                            exact
+                            to="/network"
+                            activeClassName="active"
+                            className="nav-links"
+                            onClick={handleClick}
+                        >
+                            NETWORKING SERVICES
+                        </NavLink>
+                        {/* <label>NETWORKING SERVICES</label> */}
                     </div>
                     <div className="Headerbar_col3_row2_col1_label">
-                        <label>LINUX SOLUTIONS</label>
+                    <NavLink
+                            exact
+                            to="/LINUX"
+                            activeClassName="active"
+                            className="nav-links"
+                            onClick={handleClick}
+                        >
+                            LINUX SOLUTIONS
+                        </NavLink>
+                        {/* <label>LINUX SOLUTIONS</label> */}
                     </div>
 
                 </div>
@@ -80,7 +116,7 @@ export default function Headerbar() {
 
             </div>
             {/* } */}
-           
+
 
         </div>
     )
