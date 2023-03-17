@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.Homepage{
+    /* width: 100%; */
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    margin:0px;
+   
+   
+   
+}
+.Homepage_header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Homepage_Innov{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+.Homepage_Imgdesc{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    margin-left: 20px; */
+    margin-top: 20px;
+    /* position: relative;
+    z-index: 1; */
+}
